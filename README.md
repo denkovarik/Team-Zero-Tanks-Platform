@@ -5,6 +5,12 @@ CSC340 - Software Engineering Large Team Project
 ## Introduction
 This project was created while taking the course CSC 340 Introduction to Software Engineering.
 
+## Setup
+
+## Testing
+
+## Usage
+
 ## Credits
 * Wesley Adams (Team Lead)
 * Jonathan Mckee
