@@ -34,9 +34,9 @@ All commands are to be executed from the project root directory.
 * Run Make Tests
   * ./testing/vMake.sh
 * Run ASCII Starting Verification Script
-  * testing/vProgASCII.sh
+  * ./testing/vProgASCII.sh
 * Run Tests of OpenGL
-  *./testing/vProgOpenGL.sh
+  * ./testing/vProgOpenGL.sh
 * Run Coverage
   * ./testing/runCoverage.sh
 
