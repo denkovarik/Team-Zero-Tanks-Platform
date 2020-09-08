@@ -158,6 +158,11 @@ TEST_CASE("Test Tank colors")
    //Checking trying to set the red color value too high
    SECTION(" Checking red value too high (4000). Expected: false ")
    {
+      REQUIRE(testTank6.setColors(255, 255, 255) == true);
+      bossMan->agetColors(r, g, b, testTank6);
+      REQUIRE(r == 255);
+      REQUIRE(g == 255);
+      REQUIRE(b == 255);
       CHECK(bossMan->asetColors(4000, 20, 20, testTank6) == false);
       bossMan->agetColors(r, g, b, testTank6);
    }
@@ -184,6 +189,7 @@ TEST_CASE("Test Tank colors")
    //Checking trying to set the blue color value too high
    SECTION(" Checking red value too high (4000). Expected: false ")
    {
+      REQUIRE(testTank6.setColors(255, 255, 255) == true);
       CHECK(bossMan->asetColors(20, 4000, 20, testTank6) == false);
       bossMan->agetColors(r, g, b, testTank6);
    }
@@ -197,6 +203,7 @@ TEST_CASE("Test Tank colors")
    //Checking trying to set the green color value too high
    SECTION(" Checking green value too high (4000). Expected: false ")
    {
+      REQUIRE(testTank6.setColors(255, 255, 255) == true);
       CHECK(bossMan->asetColors(20, 20, 4000, testTank6) == false);
       bossMan->agetColors(r, g, b, testTank6);
    }
@@ -223,6 +230,7 @@ TEST_CASE("Test Tank colors")
    //Checking trying to set a green color value to high for api class
    SECTION(" Checking green value too high (4000). Expected: false ")
    {
+      REQUIRE(testTank6.setColors(255, 255, 255) == true);
       CHECK(bossMan->asetColors(20, 20, 4000, testTank6) == false);
       bossMan->agetColors(r, g, b, testTank6);
    }//Checking to ensure that no values changed with invalid green input
@@ -247,6 +255,7 @@ TEST_CASE("Test Tank colors")
    //Checking to ensure api rejects negative red value
    SECTION(" Checking red value negative number (-20). Expected: false ")
    {
+      REQUIRE(testTank6.setColors(255, 255, 255) == true);
       CHECK(bossMan->asetColors(-20, 20, 20, testTank6) == false);
       bossMan->agetColors(r, g, b, testTank6);
    }
@@ -272,6 +281,7 @@ TEST_CASE("Test Tank colors")
    //Checking to ensure api negative blue number is rejected
    SECTION(" Checking blue value negative number (-20). Expected: false ")
    {
+      REQUIRE(testTank6.setColors(255, 255, 255) == true);
       CHECK(bossMan->asetColors(-20, 20, 20, testTank6) == false);
       bossMan->agetColors(r, g, b, testTank6);
    }
@@ -297,9 +307,11 @@ TEST_CASE("Test Tank colors")
    //Checking to ensure a negative green number is rejected for api
    SECTION(" Checking green value negative number (-20). Expected: false ")
    {
+      REQUIRE(testTank6.setColors(255, 255, 255) == true);
       CHECK(bossMan->asetColors(20, 20, -20, testTank6) == false);
       bossMan->agetColors(r, g, b, testTank6);
-   }//Checking to ensure the colors were not modified by bad input
+   }
+   //Checking to ensure the colors were not modified by bad input
    SECTION(" Checking no values cahnged. Expected: 255, 255, 255 "){
       CHECK(r == 255);
       CHECK(g == 255);
