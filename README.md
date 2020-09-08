@@ -6,8 +6,7 @@ CSC340 - Software Engineering Large Team Project
 This project was created during the course CSC 340 Introduction to Software Engineering at the South Dakota School of Mines and Technology. This project is a platform that supports multiple tanks playing against each other on. Developers can design tanks to compete on this platform. 
 
 ## Setup
-Note that this projects were developed and tested in Ubuntu on the command
-line.
+Note that this projects were developed and tested in Ubuntu on the command line.
 
 ### Required Software
 * git
@@ -27,6 +26,19 @@ line.
    * X-server package for displaying platform on windows
 
 ## Testing
+All commands are to be executed from the project root directory.
+* Run All Tests
+  * ./testing/runTests.sh
+* Run Catch Tests for Game Class
+  * ./testing/vCatch.sh
+* Run Make Tests
+  * ./testing/vMake.sh
+* Run ASCII Starting Verification Script
+  * testing/vProgASCII.sh
+* Run Tests of OpenGL
+  *./testing/vProgOpenGL.sh
+* Run Coverage
+  * ./testing/runCoverage.sh
 
 ## Usage
 
