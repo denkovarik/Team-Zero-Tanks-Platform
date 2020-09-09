@@ -1,6 +1,7 @@
 # README
 
-CSC340 - Software Engineering Large Team Project
+Team Zero Tanks Platform
+![alt text](https://github.com/denkovarik/Fractal-Trees/blob/master/fractalTrees/defaultTree.png)
 
 ## Introduction
 This project was created during the course CSC 340 Introduction to Software Engineering at the South Dakota School of Mines and Technology. This project is a platform that supports multiple tanks playing against each other on. Developers can design tanks to compete on this platform. 
