@@ -1,6 +1,4 @@
-# README
-
-## Team Zero Tanks Platform
+# Team Zero Tanks Platform
 
 ![alt text](https://github.com/denkovarik/Team-Zero-Tanks-Platform/blob/master/images/teamZeroPlatformCapture.PNG)
 
