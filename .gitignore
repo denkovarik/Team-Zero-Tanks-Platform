@@ -1,0 +1,43 @@
+# Compiled binaries and object files
+*.o
+*.so
+*.a
+*.out
+*.exe
+battletanks
+
+# Debugging symbols and core dumps
+*.dSYM/
+core
+*.core
+vgcore.*
+
+# Coverage and profiling
+coverage/
+*.gcda
+*.gcno
+*.gcov
+
+# Build directories
+build/
+bin/
+obj/
+
+# Temporary files and logs
+*.log
+*.tmp
+
+# Editor-specific files
+*.swp
+*.swo
+.vscode/
+.idea/
+*.code-workspace
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Backup files
+*~
+

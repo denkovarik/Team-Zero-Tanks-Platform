@@ -9,7 +9,7 @@
 
 int main(int argc, char** argv)
 {
-  int counter = 1, UIMode = 1, maxTurns = 1000, idleTime = 1000;
+  int counter = 1, UIMode = 1, maxTurns = 1000, idleTime = 200;
   std::string mapName = "default.map";
   gameSetting *settings = new gameSetting;
   map *gameMap = new map;
