@@ -62,7 +62,7 @@ void tankLoader::unloadTanks()
 void tankLoader::loadTanks(std::string dir)
 {
    // number of players loaded
-   int count;
+   int count = 0;
    // Pointer to a directory in the file system
    DIR *dp;
    // Pointer to a directory entry
